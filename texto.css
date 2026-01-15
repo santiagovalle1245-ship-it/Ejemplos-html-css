@@ -1,0 +1,47 @@
+#contenedor p{
+    color: blue;
+    font-size: 25px;
+}
+
+#contenedor p:first-child{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+#contenedor p:nth-child(2){
+    font-style: italic;
+    cursor:pointer
+}
+
+#contenedor p:nth-child(3){
+    letter-spacing: 20px;
+}
+
+#contenedor p:nth-child(4){
+    word-spacing: 75px;
+}
+
+#contenedor p:nth-child(5){
+    line-height: 100px;
+}
+
+#contenedor p:nth-child(6){
+    text-indent: 50px;
+}
+
+
+#contenedor p:last-child{
+    color: brown;
+}
+
+#contenedor p:nth-child(7){
+    text-align: center;
+}
+
+#contenedor p:nth-child(8){
+    text-transform: uppercase;
+}
+
+#contenedor p:nth-child(9){
+    text-transform: lowercase;
+}

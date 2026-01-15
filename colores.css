@@ -1,0 +1,42 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+
+#aplicacolor1{
+    
+    width: 200px;
+    height: 200px;
+
+    background-color: red;
+}
+
+#aplicacolor2{
+    background-color: #0a95b8;
+}
+
+#aplicacolor3{
+    background-color: rgb(92, 222, 41)
+}
+#aplicacolor4{
+    background-color: hsl(250deg, 30%, 50%);
+}
+#aplicacolor5{
+    /*background-color: transparent;
+    background-color: #0a95b8;
+    background-color: rgb(26, 252, 5, 0.8);*/
+
+    background: linear-gradient(90deg, blue, red);
+}
+#aplicacolor6{
+
+    background: radial-gradient(red, blue, yellow, red)
+}
+
+#imagenescuadro{
+    width: 25%;
+    height: 50vh;
+
+    background: blueviolet url(img/Captura\ de\ pantalla\ 2025-11-24\ 230701.png) no-repeat center;
+}
+

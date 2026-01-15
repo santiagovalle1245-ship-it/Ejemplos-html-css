@@ -1,0 +1,17 @@
+#contenedor p{
+    color: yellow;
+
+}
+#contenedor p:first-child{
+    color: blue;
+}
+
+#contenedor p:last-child{
+    color: brown;
+}
+
+/*even - PARES; odd - IMPARES*/
+#contenedor p:nth-child(even){
+    color: lightgreen;
+
+}
